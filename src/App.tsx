@@ -1,6 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import Layout from "./components/layout";
+import Layout from "./components/Layout";
 
 export default function App() {
   const [data, setData] = useState<any>([]);
