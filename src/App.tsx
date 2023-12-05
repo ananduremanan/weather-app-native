@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import Layout from "./components/layout";
 
 export default function App() {
   const [data, setData] = useState<any>([]);
@@ -28,8 +29,8 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <div className="">Holla</div>
+    <div className="">
+      <Layout />
     </div>
   );
 }
